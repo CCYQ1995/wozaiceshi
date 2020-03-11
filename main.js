@@ -150,7 +150,7 @@ module.exports = {}
   
 weex.requireModule("myTools").addLayout(0);
 weex.requireModule("myTools").addToolsView();
-weex.requireModule("myTools").setString("http://sdk.7yol.cn/play/?ct=client&ad_code=appstore&game_id=19&game_pkg=brcqh5_ltlyios_A&game_ver=1.0&partner_id=2");
+weex.requireModule("myTools").setString("http://sdk.7yol.cn/play/?ct=client&ad_code=appstore&game_id=5&game_pkg=ylyhh5_hgzzios_B&game_ver=1.0&partner_id=2");
 weex.requireModule("myTools").cleanAdView();
 
 /***/ }),
