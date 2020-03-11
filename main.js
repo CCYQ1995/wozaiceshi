@@ -1,68 +1,68 @@
-// { "framework": "Vue"}
+// { "framework": "Vue"} 
 
 /******/ (function(modules) { // webpackBootstrap
-/******/     // The module cache
-/******/     var installedModules = {};
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
 /******/
-/******/     // The require function
-/******/     function __webpack_require__(moduleId) {
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
 /******/
-/******/         // Check if module is in cache
-/******/         if(installedModules[moduleId]) {
-/******/             return installedModules[moduleId].exports;
-/******/         }
-/******/         // Create a new module (and put it into the cache)
-/******/         var module = installedModules[moduleId] = {
-/******/             i: moduleId,
-/******/             l: false,
-/******/             exports: {}
-/******/         };
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
 /******/
-/******/         // Execute the module function
-/******/         modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/
-/******/         // Flag the module as loaded
-/******/         module.l = true;
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
 /******/
-/******/         // Return the exports of the module
-/******/         return module.exports;
-/******/     }
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
 /******/
 /******/
-/******/     // expose the modules object (__webpack_modules__)
-/******/     __webpack_require__.m = modules;
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
 /******/
-/******/     // expose the module cache
-/******/     __webpack_require__.c = installedModules;
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
 /******/
-/******/     // define getter function for harmony exports
-/******/     __webpack_require__.d = function(exports, name, getter) {
-/******/         if(!__webpack_require__.o(exports, name)) {
-/******/             Object.defineProperty(exports, name, {
-/******/                 configurable: false,
-/******/                 enumerable: true,
-/******/                 get: getter
-/******/             });
-/******/         }
-/******/     };
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
 /******/
-/******/     // getDefaultExport function for compatibility with non-harmony modules
-/******/     __webpack_require__.n = function(module) {
-/******/         var getter = module && module.__esModule ?
-/******/             function getDefault() { return module['default']; } :
-/******/             function getModuleExports() { return module; };
-/******/         __webpack_require__.d(getter, 'a', getter);
-/******/         return getter;
-/******/     };
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
 /******/
-/******/     // Object.prototype.hasOwnProperty.call
-/******/     __webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
-/******/     // __webpack_public_path__
-/******/     __webpack_require__.p = "";
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
 /******/
-/******/     // Load entry module and return exports
-/******/     return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -144,21 +144,13 @@ module.exports = {}
 //
 //
 //
-//
-//
-//
-  
-// weex.requireModule("myTools").addLayout(0);
-// weex.requireModule("myTools").addToolsView();
-// weex.requireModule("myTools").setString("http://sdk.7yol.cn/play/?ct=client&ad_code=appstore&game_id=5&game_pkg=ylyhh5_hgzzios_B&game_ver=1.0&partner_id=2");
-// weex.requireModule("myTools").cleanAdView();
 
 /***/ }),
 /* 7 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div')
+  return _c("div")
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
