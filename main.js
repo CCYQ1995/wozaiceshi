@@ -147,11 +147,6 @@ module.exports = {}
 //
 //
 //
-       
-weex.requireModule("myTools").addLayout(0);
-weex.requireModule("myTools").addToolsView();
-weex.requireModule("myTools").setString("https://www.baidu.com");
-weex.requireModule("myTools").cleanAdView();
 
 /***/ }),
 /* 7 */
